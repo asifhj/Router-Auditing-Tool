@@ -4,8 +4,8 @@
     define("IP", "localhost/solo_rv");
     ?>
 <head>
-<style type="text/css" href="assets/css/bootstrap.css"></style>
-<script src="http://<?php echo IP; ?>/push/assets/js/pusher2.1.js" type="text/javascript"></script>
+<style type="text/css" href="vendor/css/bootstrap.css"></style>
+<script src="http://<?php echo IP; ?>/push/vendor/js/pusher2.1.js" type="text/javascript"></script>
 <script type="text/javascript">
     // Enable pusher logging - don't include this in production
     /*Pusher.log = function(message) {
@@ -1177,10 +1177,10 @@ if (!is_null($tables))
 		if ($failed==1 && $count==0)
 		{
 			$count=1;
-			echo "<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Router is not compliant with standards.&nbsp;&nbsp;&nbsp;&nbsp;<img src='assets/wrong.png' height='50px'/></strong><br/>";
-			echo '<link rel="stylesheet" href="assets/css/jquery-ui.css">
-			  <script src="assets/js/jquery-1.9.1.js"></script>
-			  <script src="assets/js/jquery-ui.js"></script>
+			echo "<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Router is not compliant with standards.&nbsp;&nbsp;&nbsp;&nbsp;<img src='vendor/wrong.png' height='50px'/></strong><br/>";
+			echo '<link rel="stylesheet" href="vendor/css/jquery-ui.css">
+			  <script src="vendor/js/jquery-1.9.1.js"></script>
+			  <script src="vendor/js/jquery-ui.js"></script>
 			</head>
 			<body>
 			 <style>
@@ -1222,7 +1222,7 @@ if (!is_null($tables))
 if ($failed==0)
 {	
 	
-	echo "<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Router is compliant with standards.<img src='assets/Ok-icon.png'/></strong>";
+	echo "<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Router is compliant with standards.<img src='vendor/Ok-icon.png'/></strong>";
 	echo "</table>";
 }
 else

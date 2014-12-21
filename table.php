@@ -60,8 +60,8 @@
                 #dataTable { padding:50px;position:absolute;margin-top:50px;left:650px;width:550px;padding:10px;border:1px solid #aaaaaa;}
             </style>                    
             <!--asif's script for regex-->
-            <script type="text/javascript" src="assets/js/list.js"></script>
-            <script type="text/javascript" src="assets/js/list.fuzzysearch.js"></script>
+            <script type="text/javascript" src="vendor/js/list.js"></script>
+            <script type="text/javascript" src="vendor/js/list.fuzzysearch.js"></script>
             <script type="text/javascript">
                   var monkeyList = new List('rules-list', {  valueNames: ['rule'],  plugins: [ ListFuzzySearch() ] });
             </script>

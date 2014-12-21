@@ -31,33 +31,33 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Le styles -->
-    <script type="text/javascript" src="assets/js/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
-    <script type="text/javascript" src="assets/js/sigma.min.js"></script>
-    <script type="text/javascript" src="assets/js/sigmaparseGexf.js"></script>
-    <script type="text/javascript" src="assets/js/forceatlas.js"></script>
-    <script type="text/javascript" src="assets/js/leaflet.js"></script>    
-    <script type="text/javascript" src="assets/js/sigma.min.js"></script>
-    <script type="text/javascript" src="assets/js/sigmaparseGexf.js"></script>
-    <script type="text/javascript" src="assets/js/forceatlas.js"></script>    
-    <script type="text/javascript" src="assets/js/leaflet.js"></script>
+    <script type="text/javascript" src="vendor/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="vendor/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="vendor/js/sigma.min.js"></script>
+    <script type="text/javascript" src="vendor/js/sigmaparseGexf.js"></script>
+    <script type="text/javascript" src="vendor/js/forceatlas.js"></script>
+    <script type="text/javascript" src="vendor/js/leaflet.js"></script>    
+    <script type="text/javascript" src="vendor/js/sigma.min.js"></script>
+    <script type="text/javascript" src="vendor/js/sigmaparseGexf.js"></script>
+    <script type="text/javascript" src="vendor/js/forceatlas.js"></script>    
+    <script type="text/javascript" src="vendor/js/leaflet.js"></script>
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/leaflet.css" />
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">    
+    <link href="vendor/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/leaflet.css" />
+    <link rel="stylesheet" href="vendor/css/jquery-ui.css">    
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="../vendor/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../vendor/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../vendor/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../vendor/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../vendor/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../vendor/ico/favicon.png">
 <style type="text/css">
     /* sigma.js context : */
     body {
@@ -68,7 +68,7 @@
       height: 600px
     }
 </style>
-<script src="http://<?php echo IP; ?>/push/assets/js/pusher2.1.js" type="text/javascript"></script>
+<script src="http://<?php echo IP; ?>/push/vendor/js/pusher2.1.js" type="text/javascript"></script>
 <script type="text/javascript">
     // Enable pusher logging - don't include this in production
    /* Pusher.log = function(message) {
@@ -631,8 +631,8 @@ n.hidden=0;
                 #dataTable { padding:50px;position:absolute;margin-top:50px;left:52%;width:550px;padding:10px;border:1px solid #aaaaaa;}
             </style>                    
             <!--asif's script for regex-->
-            <script type="text/javascript" src="assets/js/list.js"></script>
-            <script type="text/javascript" src="assets/js/list.fuzzysearch.js"></script>
+            <script type="text/javascript" src="vendor/js/list.js"></script>
+            <script type="text/javascript" src="vendor/js/list.fuzzysearch.js"></script>
             <script type="text/javascript">
                   var monkeyList = new List('rules-list', {  valueNames: ['rule'],  plugins: [ ListFuzzySearch() ] });
             </script>
@@ -820,18 +820,18 @@ n.hidden=0;
         <a class="btn btn-large btn-success" href="#">Sign up today</a>
       </div>-->    
      
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="vendor/js/bootstrap-transition.js"></script>
+    <script src="vendor/js/bootstrap-alert.js"></script>
+    <script src="vendor/js/bootstrap-modal.js"></script>
+    <script src="vendor/js/bootstrap-dropdown.js"></script>
+    <script src="vendor/js/bootstrap-scrollspy.js"></script>
+    <script src="vendor/js/bootstrap-tab.js"></script>
+    <script src="vendor/js/bootstrap-tooltip.js"></script>
+    <script src="vendor/js/bootstrap-popover.js"></script>
+    <script src="vendor/js/bootstrap-button.js"></script>
+    <script src="vendor/js/bootstrap-collapse.js"></script>
+    <script src="vendor/js/bootstrap-carousel.js"></script>
+    <script src="vendor/js/bootstrap-typeahead.js"></script>
      <script type="text/javascript">
 
         //slider-criticality script
