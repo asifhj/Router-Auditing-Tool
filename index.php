@@ -1,5 +1,5 @@
 <?php
-    define("IP", "localhost/solo_rv");
+    define("IP", "localhost/git/solo_rv/myrouter");
     // Create connection
     $con=mysqli_connect("localhost","root","root","router");
 
@@ -26,7 +26,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Router Visualization by CTO Team.</title>
+    <title>Router Visualization.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -68,7 +68,7 @@
       height: 600px
     }
 </style>
-<script src="http://<?php echo IP; ?>/push/vendor/js/pusher2.1.js" type="text/javascript"></script>
+<!--<script src="http://<?php echo IP; ?>/push/vendor/js/pusher2.1.js" type="text/javascript"></script>-->
 <script type="text/javascript">
     // Enable pusher logging - don't include this in production
    /* Pusher.log = function(message) {
@@ -339,11 +339,11 @@ var map = L.map('map',{
     }).setView([21.8, 81.5], 5);
 
 // add an OpenStreetMap tile layer
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+/*L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 styleId: 997
 }).addTo(map);
-
+*/
 // add a marker in the given location, attach some popup content to it and open the popup
 L.marker([18.9750, 72.8258]).addTo(map)
 .bindPopup('Mumbai').on('click',function onClick(evt){

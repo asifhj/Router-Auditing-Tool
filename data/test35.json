@@ -1,0 +1,14 @@
+{"nodes":[{"Protocols":"",
+"Interfaces":[{"Name":"Loopback0","Ip":"10.192.x.x","Linkno":0,"Description":">>>>LOOPBACK FOR RELIANCE>>>>","Subnet":""},
+{"Name":"Loopback1","Ip":"10.25.x.x","Linkno":0,"Description":"\"GRE\/Management Loopback\"","Subnet":""},
+{"Name":"Loopback2","Ip":"192.168.x.x","Linkno":0,"Description":">>>>LOOPBACK FOR SIFY>>>>","Subnet":""},
+{"Name":"Loopback3","Ip":"10.24.x.x","Linkno":0,"Description":"<<< LOOPBACK FOR BHARTI >>>","Subnet":""}],
+"ACL":"","Filename":"YBL-ROUTER-MUM-DAKC-R02.cfg","Direction":"","Hostname":"ACME-R02","RAT":"fail"},
+{"Protocols":"",
+"Interfaces":[{"Name":"Loopback0","Ip":"10.192.x.x","Linkno":0,"Description":">>>>LOOPBACK FOR RELIANCE>>>>","Subnet":""},
+{"Name":"Loopback1","Ip":"10.25.x.x","Linkno":0,"Description":"\"GRE\/Management Loopback\"","Subnet":""},
+{"Name":"Loopback2","Ip":"192.168.x.x","Linkno":0,"Description":">>>>LOOPBACK FOR SIFY>>>>","Subnet":""},
+{"Name":"Loopback3","Ip":"10.24.x.x","Linkno":0,"Description":"<<< LOOPBACK FOR BHARTI >>>","Subnet":""}],
+"ACL":"","Filename":"YBL-ROUTER-MUM-DAKC-R02.cfg","Direction":"","Hostname":"ACME-R01","RAT":"fail"},
+
+}
